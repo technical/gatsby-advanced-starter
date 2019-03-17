@@ -45,6 +45,13 @@ module.exports = {
             }
           },
           {
+            resolve: "gatsby-source-ghost",
+            options: {
+                apiUrl: "https://agent.sicasa.co.uk/",
+                contentApiKey: "30ef85b53345970a31bd189fc4"
+            }
+         },
+          {
             resolve: "gatsby-remark-responsive-iframe"
           },
           "gatsby-remark-prismjs",
